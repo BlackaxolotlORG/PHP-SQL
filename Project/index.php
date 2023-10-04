@@ -1,8 +1,10 @@
 <?php
 //connect to database
-$conn = mysqli_connect("localhost","diego","test1234","pizzas");
-
-
+$conn = mysqli_connect("localhost", "rodrigo", "password", 'ninja_pizza');
+// check connection
+//if(!$conn){
+  //  echo "Connection error: " . mysqli_connect_error();
+//}
 
 ?>
 <?php
